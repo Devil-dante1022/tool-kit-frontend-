@@ -1,0 +1,72 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:active {
+    color: inherit
+}
+
+a:link {
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: local('GoogleSans'), url(./../public/fonts/coolvetica\ rg.otf) format("opentype");
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: none;
+    border: solid 1px #371830;
+    border-radius: 4px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    /* background: #11020D; */
+    border-radius: 4px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {}
+
+.MuiAutocomplete-popper * {
+    font-size: 10px !important;
+}
